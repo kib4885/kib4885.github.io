@@ -1,16 +1,117 @@
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+*, *::after, *::before {
+    box-sizing: content-box;
   }
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+
+
+.container{
+  background-color: white;
+  width: 960px;
+  height: auto;
+  padding: 25px;
+  margin: auto
+}   
+
+.header{
+    background-color: white;
+    padding: 10px;
+  } 
+  
+ h1 {    
+    position: relative;
+    top: 30px;
+    left: 275px;
+    display: inline;
+    background-color: teal;  
+    font-size: 24;
+    color: #fff;
+    float: left;
+}
+h2 {
+    color: teal;
+}
+.content{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    box-align:content-box;
+    border-top-style: solid; 
+    border-top-color:lightgray;
+    padding-top: inherit;
+    line-height: 1.6;   
+}
+  body{
+    background-image: url(tiny-squares.png);
+  }
+    
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+
+li{
+  float: right;
+  display: inline-block;
+  margin-top: 14px;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: darkgray
+  }
+
+#profile-image {
+    float: left;
+    width: auto;
+    height: 25%;
+    padding-right: 15px
+}
+***contact page***
+
+
+#submit{
+  background-color: #4aaaa5;
+  color: white;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+  }
+
+  .portfolio-images{
+     margin: auto;
+      width: 400px;
+      box-align: left;
+    padding-top: inherit;
+    border-top-style: solid; 
+    border-top-color:lightgray;
+    padding-top: inherit;
+  }
+  .container3{
+    background-color: white;
+    width: 400  px;
+    padding: 25px;
+    margin: auto;   
+  }  
+
+  .footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top-style: solid; 
+    border-top-color:teal;
   }
